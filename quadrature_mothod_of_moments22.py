@@ -77,8 +77,8 @@ def pbm_equas_of_moments(y, t, m, r_i, w_i):
 
 
 #设置时间序列
-compute_time = 1.5
-time_steps = 1e-7
+compute_time = 100.
+time_steps = 1e-4
 time_array = np.arange(0.0, compute_time, time_steps)
 time_steps_numbers = len(time_array)
 Moments_all = np.zeros([time_steps_numbers,6])
